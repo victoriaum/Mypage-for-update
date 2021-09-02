@@ -1145,7 +1145,7 @@ div.eduScroll {
 
 .progressContainer {
   overflow-x:hidden;
-  height:80% !important;
+  height:60% !important;
 }
 @media screen and (max-width: 768px) {
   .progressContainer {
