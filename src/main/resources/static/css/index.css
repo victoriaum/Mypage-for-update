@@ -1,0 +1,13 @@
+@font-face {
+  src : url("../font/NanumSquareRoundR.ttf");
+  font-family: "NanumR"
+}
+
+body{
+  font-family: NanumR;
+}
+
+#container{
+  height: 100%;
+  margin: 0 auto;
+}
