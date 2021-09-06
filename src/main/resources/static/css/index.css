@@ -8,6 +8,60 @@ body{
 }
 
 #container{
+  height: 90%;
+  width: 90%;
+  margin: 20px auto;
+  border: solid 1px red;
+}
+
+aside{
+  width: 25%;
   height: 100%;
-  margin: 0 auto;
+  padding-right: 30px;
+  display: inline-block;
+  border: solid 1px red;
+}
+#mainImg{
+  width: 100%;
+  border: solid 1px red;
+}
+.sideSection{
+  margin-left: 20px;
+}
+.mb{
+  margin-bottom: 20px;
+}
+h3{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.subtitle{
+  margin-right: 20px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+.skillImg{
+  width: 20%;
+  height: auto;
+  border: solid 1px red;
+  border-radius: 10%;
+  margin-bottom: 3px;
+}
+
+
+#main{
+  width: 75%;
+  height: 100%;
+  padding: 0 10px;
+  display: inline-block;
+  float: right;
+  border: solid 1px red;
+}
+.sector{
+  height: 30%;
+  border: solid 1px red;
+}
+.lang{
+  float: right;
+  border: solid 1px red;
 }
