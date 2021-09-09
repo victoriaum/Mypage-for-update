@@ -1055,10 +1055,10 @@ figure figcaption {
   margin: 15px 0;
 }
 .skillLogo {
-  width: 10%;
+  width: 12%;
   margin: 10px 30px 0 0;
 }
-.skillSplit {
+hr#skillSplit {
   margin: 30px 0;
 }
 
@@ -1145,15 +1145,11 @@ div.eduScroll {
 
 .progressContainer {
   overflow-x:hidden;
-  height:60% !important;
+  height:80% !important;
 }
 @media screen and (max-width: 768px) {
   .progressContainer {
     overflow-x:hidden;
     height:50% !important;
   }
-}
-
-.intro{
-  color: black;
 }
