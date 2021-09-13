@@ -1153,3 +1153,10 @@ div.eduScroll {
     height:50% !important;
   }
 }
+
+
+.service-portfolio {
+  padding: 10px;
+  display: table;
+  vertical-align: center;
+}
