@@ -1160,3 +1160,8 @@ div.eduScroll {
   display: table;
   vertical-align: center;
 }
+.mainPortfolioImg {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
