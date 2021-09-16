@@ -1156,7 +1156,8 @@ hr#skillSplit {
 }
 .detailPortfolioImg {
   display: inline-block;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 .out {
   background-color: lightgray;
