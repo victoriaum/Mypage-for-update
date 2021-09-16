@@ -31,6 +31,9 @@ h1, h2, h3, h4, h5,
 .border-2 {
   border-width: 2px; }
 
+.border-none {
+  border: none; }
+
 .text-black {
   color: #000 !important; }
 
@@ -1082,6 +1085,17 @@ hr#skillSplit {
 .cursor {
     cursor: pointer;
 }
+.service-portfolio {
+  padding: 10px;
+  display: table;
+  vertical-align: center;
+}
+.mainPortfolioImg {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
 
 /* 모달창 관련 css */
 .modal {
@@ -1099,9 +1113,19 @@ hr#skillSplit {
 }
 .modalBtn {
   font-size: 13px;
-  border-radius: 2%;
+  border-radius: 25% 10%;;
   padding: 5px 10px;
-  margin-left: 10px;
+  margin-left: 5px;
+}
+.carousel-control-icon {
+  color: #ad6705;
+}
+.carousel-bottom-btn {
+  margin: 0 5px 5px 0;
+  width: 5%;
+  height: 2px;
+  background: #fab95b;
+  border: none;
 }
 .showContents {
   width: 90%;
@@ -1154,14 +1178,3 @@ div.eduScroll {
   }
 }
 
-
-.service-portfolio {
-  padding: 10px;
-  display: table;
-  vertical-align: center;
-}
-.mainPortfolioImg {
-  display: inline-block;
-  width: 100%;
-  height: auto;
-}
