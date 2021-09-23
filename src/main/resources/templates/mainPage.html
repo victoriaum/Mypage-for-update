@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
 
+
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300"
       oncontextmenu='return false' ondragstart='return false' onselectstart='return false'>
@@ -236,7 +237,6 @@
           <img src="images/logo/adobexd.png" class="skillLogo">
         </div>
       </div>
-
     </div>
   </section>
 
@@ -330,46 +330,37 @@
           <h4 class="modal-title myModalLabel">RedTimer
             <button class="btn btn-warning modalBtn" onclick="window.open('https://store.whale.naver.com/detail/noiaegidgflhfajkgljiinhhljedclni')">배포현황</button>
             <button class="btn btn-dark modalBtn" onclick="window.open('https://github.com/victoriaum/TimeTimer.git')">소스코드</button>
+            <img src="images/mouse.png" id="mouse">
+            <span>Scroll</span>
           </h4>
           <span class="out" data-dismiss="modal">X</span>
         </div>
         <div class="modal-body">
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="carousel-bottom-btn active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-bottom-btn" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-bottom-btn" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-bottom-btn" aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="carousel-bottom-btn" aria-label="Slide 5"></button>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <img src="images/portfolioDetail/redtimer-detail1.png" class="mainPortfolioImg">
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/portfolioDetail/redtimer-detail1.png" class="d-block w-100 detailPortfolioImg">
-              </div>
-              <div class="carousel-item">
-                <img src="images/portfolioDetail/redtimer-detail2.png" class="d-block w-100 detailPortfolioImg">
-              </div>
-              <div class="carousel-item">
-                <img src="images/portfolioDetail/redtimer-detail3.png" class="d-block w-100 detailPortfolioImg">
-              </div>
-              <div class="carousel-item">
-                <img src="images/portfolioDetail/redtimer-detail4.png" class="d-block w-100 detailPortfolioImg">
-              </div>
-              <div class="carousel-item">
-                <img src="images/portfolioDetail/redtimer-detail5.png" class="d-block w-100 detailPortfolioImg">
-              </div>
+            <div class="item">
+              <img src="images/portfolioDetail/redtimer-detail2.png" class="mainPortfolioImg">
             </div>
-            <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-icon visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-icon visually-hidden">Next</span>
-            </button>
+            <div class="item">
+              <img src="images/portfolioDetail/redtimer-detail3.png" class="mainPortfolioImg">
+            </div>
+            <div class="item">
+              <img src="images/portfolioDetail/redtimer-detail4.png" class="mainPortfolioImg">
+            </div>
+            <div class="item">
+              <img src="images/portfolioDetail/redtimer-detail5.png" class="mainPortfolioImg">
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
+
+
 
 
   <script src="js/jquery-3.3.1.min.js"></script>
@@ -394,5 +385,8 @@
       textarea = textarea.replace(/<script/gi, "&lt;script");
       $("textarea").val(textarea);
     });
+
+
+
   </script>
 </body>
