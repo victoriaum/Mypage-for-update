@@ -1137,7 +1137,7 @@ hr#skillSplit {
   width: 100%;
   height: auto;
 }
-.owl-nav, .owl-dots{
+.owl-nav {
   display: none;
 }
 .out {
