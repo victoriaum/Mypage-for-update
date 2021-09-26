@@ -1123,8 +1123,6 @@ hr#skillSplit {
 .showContents {
   width: 80%;
   margin: 0 auto;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 .modalImg {
   width: 100%;
