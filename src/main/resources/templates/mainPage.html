@@ -463,11 +463,13 @@
     // 모달창 비활성화시 body 스크롤
     $(".out").click(function(){
       $("html").removeClass('scroll');
+      $('.owl-stage').trigger('refresh.owl.carousel');
     });
     $(document).mouseup(function (e){
       let modal = $(".modal");
       if(modal.has(e.target).length === 0){
         $("html").removeClass('scroll');
+        $('.owl-stage').trigger('refresh.owl.carousel');
       }
     });
 
